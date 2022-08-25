@@ -55,6 +55,7 @@
   font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 500;
   font-size: 16px;
+  line-height: 24px;
   color: #7f8cff;
 }
 
@@ -183,13 +184,24 @@ a:hover { color: #7f8cff; }
   flex-direction: column;
   padding-left: 10px;
   padding-top: 10px;
-  padding-bottom: 25px;
-  box-shadow: 2px 2px 2px #888;
+
+}
+
+.about-me h1 {
+  font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  padding-top: 30px;
+  margin-bottom: 0%;
+}
+
+.about-me p {
+  margin-bottom: 0%;
 }
 
 .menu ul {
   list-style: none;
-  margin: 0;
+  margin-top: 30px;
   padding: 0;
 }
 
@@ -202,7 +214,9 @@ a:hover { color: #7f8cff; }
   font-size: 20px;
   line-height: 24px;
   padding-top: 25px;
+  padding-bottom: 15px;
   font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
+  border-bottom: solid #f7f7f9;
 }
 
 .menu ul li {
@@ -216,6 +230,10 @@ a:hover { color: #7f8cff; }
 }
 
 .menu ul li:hover { background: #7f8cff; }
+
+.material-symbols-outlined {
+  margin-left: auto;
+}
 
 .js-btn {
   background-image: url(js-icon.svg);
