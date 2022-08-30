@@ -372,6 +372,5 @@ textarea {
 
 .g-button:enabled { background-color: #fff; }
 .g-button:hover { background-color: #7f8cff; }
-
 .g-button:active { background: #2230d2; }
 .g-button:disabled { color: #5e6c84; }
