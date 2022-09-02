@@ -13,11 +13,11 @@
 
 .menu-list {
   font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
+  color: #344563;
   font-size: 15px;
   font-weight: 500;
   line-height: 20px;
   margin-right: 5%;
-  color: #344563;
 }
 
 .menu-list a {
@@ -42,6 +42,7 @@
 @media screen and (max-width: 600px) {
   .menu-list {
     display: none;
+    color: #344563;
   }
 }
 
@@ -69,8 +70,8 @@
 }
 
 .title1 {
-  font-family: Poppins, Geneva, Tahoma, sans-serif;
-  font-weight: bolder;
+  font-weight: 100;
+  font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
   font-size: 30px;
   line-height: 52px;
   padding-top: 50px;
@@ -119,17 +120,19 @@ li {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    padding-bottom: 100px;
+    padding-bottom: 190px;
   }
 
   .title1 {
-    padding-top: 20%;
+    margin-top: 10%;
     margin-left: auto;
     margin-right: auto;
-    width: 24.5em;
+    width: 15.5em;
+    font-size: 48px;
   }
 
   .description1 {
+    margin-top: 0%;
     margin-left: auto;
     margin-right: auto;
     width: 45em;
@@ -178,7 +181,7 @@ li {
 .flex-card h1 {
   font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
   font-size: 32px;
-  font-weight: 700;
+  font-weight: bolder;
   line-height: 44px;
   color: #172b4d;
   width: auto;
@@ -202,9 +205,10 @@ li {
 
 .element1 {
   font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: bold;
+  font-weight: bolder;
   font-size: 17px;
   padding-right: 10px;
+  color: #344563;
 }
 
 .element2 {
@@ -252,7 +256,12 @@ li {
 }
 
 .p-button:enabled { background-color: #fff; }
-.p-button:hover { background-color: #7f8cff; }
+
+.p-button:hover {
+  background-color: #7f8cff;
+  color: #fff;
+}
+
 .p-button:active { background: #2230d2; }
 .p-button:disabled { color: #5e6c84; }
 
@@ -274,14 +283,29 @@ li {
   .snapshot {
     float: left;
     width: 50%;
-    height: 90;
+    height: 90%;
     margin-top: 24px;
     margin-bottom: 24px;
+    padding-right: 24px;
+  }
+
+  .works-container {
+    padding-top: 100px;
+    gap: 5%;
+    padding-bottom: 30%;
   }
 
   .flex-card {
     flex-direction: row;
-    width: auto;
+    width: 80%;
+    height: 85%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .flex-card h1 {
+    font-size: 40px;
+    font-weight: bolder;
   }
 
   .p-button {
@@ -335,7 +359,12 @@ li {
 }
 
 .r-button:enabled { background-color: #fff; }
-.r-button:hover { background-color: #7f8cff; }
+
+.r-button:hover {
+  background-color: #7f8cff;
+  color: #fff;
+}
+
 .r-button:active { background: #2230d2; }
 .r-button:disabled { color: #5e6c84; }
 
@@ -350,7 +379,6 @@ li {
 .menu ul a {
   display: flex;
   flex-direction: row;
-  color: black;
   text-decoration: none;
   font-style: normal;
   font-weight: bold;
@@ -359,6 +387,7 @@ li {
   padding-top: 25px;
   padding-bottom: 15px;
   font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
+  color: #344563;
   border-bottom: solid #f7f7f9;
 }
 
@@ -418,7 +447,7 @@ li {
 
 @media only screen and (min-width: 600px) {
   .column1 {
-    margin-left: 1%;
+    margin-left: 8%;
     width: 40%;
   }
 
@@ -432,7 +461,12 @@ li {
 
   .menu ul {
     margin-top: 8%;
-    margin-left: 5%;
+    margin-left: 6%;
+    margin-right: 10%;
+  }
+
+  .menu ul ul {
+    margin-left: 0%;
   }
 
   .menu ul ul li {
@@ -456,7 +490,8 @@ li {
     margin: auto;
     border: 5px solid #fff;
     border-radius: 12px;
-    text-indent: 10%;
+    text-indent: 4%;
+    font-weight: medium;
   }
 
   .ht-btn {
@@ -573,16 +608,28 @@ textarea {
 }
 
 .g-button:enabled { background-color: #fff; }
-.g-button:hover { background-color: #7f8cff; }
+
+.g-button:hover {
+  background-color: #7f8cff;
+  color: #fff;
+}
+
 .g-button:active { background: #2230d2; }
 .g-button:disabled { color: #5e6c84; }
 
 @media only screen and (min-width: 600px) {
+  html,
+  body {
+    margin: 0;
+    height: 100%;
+  }
+
   .contact {
     background-image: url('contact-background-shapes.svg');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+    height: 100%;
   }
 
   .contact h1 {
