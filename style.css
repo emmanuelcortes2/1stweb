@@ -31,7 +31,6 @@ body {
   color: #344563;
 }
 
-
 @media screen and (min-width: 600px) {
   .wrapper {
     padding-top: 0%;
@@ -54,10 +53,10 @@ body {
 }
 
 .headline {
+  background-color: #fff;
   background-image: url('header-shapes-mobile.svg');
   background-repeat: no-repeat;
   background-size: cover;
-  background: #fff;
   display: flex;
   flex-direction: column;
   padding-left: 10px;
@@ -331,7 +330,7 @@ li {
   display: flex;
   flex-direction: column;
   padding-left: 10px;
-  margin-bottom: 0em;
+  margin-bottom: 1rem;
   height: 100%;
   border-top: 1px solid  #e2e2e7;
   border-top-right-radius: 75px;
@@ -341,10 +340,10 @@ li {
 .about-me h1 {
   font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
   font-size: 40px;
-  font-weight: 700;
+  font-weight: bold;
   padding-top: 30px;
   margin-bottom: auto;
-  color: #091E42;
+  color: #091e42;
 }
 
 .description {
@@ -418,7 +417,7 @@ li {
 }
 
 .menu ul li:hover { background: #7f8cff; }
-.menu a:hover { background: #7f8cff }
+.menu a:hover { background: #7f8cff; }
 
 .material-symbols-outlined {
   margin-left: auto;
