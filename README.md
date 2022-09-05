@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-Please follow this [Link](https://emmanuelcortes2.github.io/) or copy and paste in your browser https://emmanuelcortes2.github.io/.
+Please follow this [Link](https://emmanuelcortes2.github.io/) or copy and paste in your browser https://emmanuelcortes2.github.io/. Thank you!
 
 ## Author
 
