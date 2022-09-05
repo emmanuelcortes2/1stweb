@@ -76,6 +76,10 @@ body {
   padding-left: 12px;
 }
 
+.icon:hover {
+  transform: scale(1.5);
+}
+
 .title1 {
   font-weight: 700;
   font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
