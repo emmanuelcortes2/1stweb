@@ -31,8 +31,15 @@ body {
   color: #344563;
 }
 
+.drop-button {
+  background-color: transparent;
+  height: 150%;
+  width: 70%;
+  border: none;
+}
+
 .drop-content {
-  display: block;
+  display: none;
   position: absolute;
   left: 0px;
   right: 0px;
@@ -62,6 +69,14 @@ body {
   right: 68px;
   top: calc(50%-24px/2);
   */
+}
+
+.show { display: block; }
+
+.cls-btn {
+  position: absolute;
+  right: 8%;
+  top: 5%;
 }
 
 @media screen and (min-width: 600px) {
