@@ -8,19 +8,26 @@
 
 ## Built With
 
-- Html and Css
+- Html, Css & JavaScript
 
 ## Live Demo
 
 Please follow this [Link](https://emmanuelcortes2.github.io/) or copy and paste in your browser https://emmanuelcortes2.github.io/. Thank you!
 
-## Author
+## Authors
 
 👤 **Emmanuel Cortés**
 
 - GitHub: [@emmanuelcortes2](https://github.com/emmanuelcortes2)
 - Twitter: [@EmmanueCortes2](https://twitter.com/EmmanueCortes2)
-- LinkedIn: [Emmanuel Cortés Padilla](www.linkedin.com/in/emmanuel-cortes-padilla)
+- LinkedIn: [Emmanuel Cortés Padilla](www.linkedin.com/in/emmanuel-cortés-padilla-490982140)
+
+👤 **Marcos Gualtero Lourenzo**
+
+- GitHub: [githubhandle](@https://github.com/Goruchie)
+- Twitter: [@twitterhandle](https://twitter.com/Goruchie2)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/marcos-gualtero-a2aa35246/)
+
 
 ## 🤝 Contributing
 

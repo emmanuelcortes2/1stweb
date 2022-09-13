@@ -13,9 +13,19 @@
     <body>
         <header class="wrapper">
             <a class="logo">Emmanuel Cortés</a>
-            <a class="menu-button">
+        <div class="dropdown">
+            <button class="drop-button" onclick="dropFunction()">
+            <span class="menu-button">
                 <img src="menu.svg" width="20" alt="menu">
-            </a>
+            </span>
+        </button>
+        <div class="drop-content" id="drop-content">
+            <a class="cls-btn" id="close" onclick="dropFunction()"><img src="Icon.png" height="12" width="12" alt="closeicon"></a>
+            <a onclick="dropFunction()" href="#works-container">Portfolio</a>
+            <a onclick="dropFunction()" href="#about-me">About</a>
+            <a onclick="dropFunction()" href="#contact">Contact</a>
+        </div>
+        </div>
             <ul class="menu-list">
                 <li><a href="#works-container">Portfolio</a></li>
                 <li><a href="#about-me">About</a></li>
@@ -227,5 +237,6 @@
                 </ul>
             </form>
         </footer>
+        <script src="app.js"></script>
     </body>
 </html>
