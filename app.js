@@ -7,3 +7,4 @@ dropFunction();
 toggle.addEventListener('click', () => {
   toggle.classList.dropFunction();
 });
+
