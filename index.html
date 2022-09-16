@@ -14,16 +14,16 @@
         <header class="wrapper">
             <a class="logo">Emmanuel Cortés</a>
         <div class="dropdown">
-            <button class="drop-button" onclick="dropFunction()">
+            <button class="drop-button" id="drop-button">
             <span class="menu-button">
                 <img src="menu.svg" width="20" alt="menu">
             </span>
         </button>
         <div class="drop-content" id="drop-content">
-            <a class="cls-btn" id="close" onclick="dropFunction()"><img src="Icon.png" height="12" width="12" alt="closeicon"></a>
-            <a onclick="dropFunction()" href="#works-container">Portfolio</a>
-            <a onclick="dropFunction()" href="#about-me">About</a>
-            <a onclick="dropFunction()" href="#contact">Contact</a>
+            <a class="cls-btn" id="close"><img src="Icon.png" height="12" width="12" alt="closeicon"></a>
+            <a onclick="close()" href="#works-container">Portfolio</a>
+            <a onclick="close()" href="#about-me">About</a>
+            <a onclick="close()" href="#contact">Contact</a>
         </div>
         </div>
             <ul class="menu-list">
@@ -68,7 +68,6 @@
             </div> 
             </section>   
         </div>
-
         <section class="works-container" id="works-container">
             <div class="flex-card">
                 <img class="snapshot" src="SnapshootPortfolio.svg" alt="portfolio 1">
@@ -88,7 +87,7 @@
                         <li><button class="language-buttons" type="button">css</button></li>
                         <li><button class="language-buttons" type="button">javaScript</button></li>
                     </ul>
-                    <button class="p-button" type="button">See project</button>
+                    <button class="p-button" id="btn1" type="button">See project</button>
                 </div>
             </div>
             <div class="flex-card">
@@ -219,7 +218,7 @@
                 or a project that needs coding. I’d love to 
                 help with it 
             </p>
-            <form action="https://formspree.io/f/xrgdbdnb"
+            <form class="contact-me" action="https://formspree.io/f/xrgdbdnb"
             method="POST">
                 <ul class="data-input">
                     <li>
@@ -234,9 +233,10 @@
                     <li>
                         <button class="g-button" type="submit">Get in touch</button>
                     </li>
+                    <div class="display-error">Please write an email with (***@***.com) format in lower case.</div>
                 </ul>
             </form>
         </footer>
-        <script src="app.js"></script>
+        <script type="text/javascript" src="app.js"></script>
     </body>
 </html>
