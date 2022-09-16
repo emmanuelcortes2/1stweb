@@ -678,6 +678,19 @@ textarea {
 .g-button:active { background: #2230d2; }
 .g-button:disabled { color: #5e6c84; }
 
+.display-error {
+  display: block;
+  border: 2px solid #ff7800;
+  margin: 10px auto;
+  padding: 10px 5px 10px 5px;
+  width: 50%;
+  background-color: #fff;
+  color: #ff7800;
+  border-radius: 10px;
+  text-align: center;
+  font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
+}
+
 @media only screen and (min-width: 600px) {
   html,
   body {
